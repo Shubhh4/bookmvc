@@ -5,6 +5,6 @@ import com.bookStore.entity.Book;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class BookRepository extends JpaRepository<Book,Integer> {
+public interface BookRepository extends JpaRepository<Book,Integer> {
 
 }
