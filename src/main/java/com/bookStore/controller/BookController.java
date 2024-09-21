@@ -1,6 +1,6 @@
 package com.bookStore.controller;
 
-import ch.qos.logback.core.model.Model;
+import org.springframework.ui.Model;
 import com.bookStore.entity.MyBookList;
 import com.bookStore.service.BookService;
 import com.bookStore.service.MyBookListService;
