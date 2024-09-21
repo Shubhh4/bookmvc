@@ -21,7 +21,8 @@ public class BookService {
     }
 
     public Book getBookById(int id){
-        return bRepo.findById(id).get();
+        Book book= bRepo.findById(id).get();
+        return book;
     }
 
     public void deleteById(int id){
